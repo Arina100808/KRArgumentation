@@ -1,0 +1,9 @@
+{
+    "Arguments": [
+        "a", "b", "c", "d"
+    ],
+    "Attack Relations": [
+        ["a", "b"], ["b", "c"], ["c", "b"],
+        ["d", "d"]
+    ]
+}
