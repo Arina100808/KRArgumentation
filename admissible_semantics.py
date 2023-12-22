@@ -66,7 +66,7 @@ if __name__ == '__main__':
 
     # Get file names of all tests
     all_tests = [f for f in listdir(folder) if isfile(join(folder, f))]
-    all_tests.remove('.DS_Store')
+    if '.DS_Store' in all_tests: all_tests.remove('.DS_Store')
     all_tests.sort()
 
     json_file = all_tests[1]
